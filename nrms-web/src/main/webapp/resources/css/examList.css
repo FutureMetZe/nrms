@@ -1,0 +1,250 @@
+.answer-card{
+    background: #fff;
+    border-radius: 5px;
+    padding: .45rem;
+    display: flow-root;
+}
+.answer-card .card-title{
+    color: #3687cb;
+    padding: .1rem 0.6rem;
+    font-weight: 600;
+}
+a:hover,a:focus{
+    cursor: pointer;
+}
+.table-answer-card{
+    margin-bottom: 1rem;
+}
+.table-answer-card>thead>tr>th{
+    padding: 0.4rem;
+    background: #fff;
+    width: 100%;
+    border-radius: 5px 5px 0px 0px;
+    border: 1px solid #fff;
+}
+.table-answer-card>tbody>tr>td:hover,.table-answer-card>tbody>tr>td:focus{
+    cursor: pointer;
+    background: #ccc;
+}
+.table-answer-card>tbody>tr>td{
+    width: 10%;
+    height: 35px;
+    width: 40px;
+    text-align: center;
+    background: #eee;
+    color: #666;
+    border-radius: 8px;
+    border: 2px solid #fff;
+}
+.card-exam-input{
+    width: 100%;
+    position: relative;
+}
+.topic-key-num{
+    margin: 1rem 0rem;
+}
+.topic-key-num span{
+    padding: 0rem 1rem;
+}
+.exam-result-class{
+    font-size: 1rem;
+    color: #3185af;
+    padding: .6rem 0rem;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 0.3rem;
+}
+.exam-result-num{
+    position: absolute;
+    right: 14px;
+    bottom: 5px;
+    color: #58af86;
+    font-size: 1rem;
+}
+.exam-result-header{
+    color: #777!important;
+}
+
+.exam-ans-center{
+    padding-bottom: 1.5rem;
+    margin-bottom: 1.5rem;
+    border-bottom: 1px solid #ddd;
+}
+.exam-ans-title{
+    padding: 1rem 0.5rem;
+    font-size: 0.925rem;
+    font-weight: 600;
+}
+.question_info{
+    padding: .5rem 1rem;
+    cursor: pointer;
+}
+.question_info:hover{
+    color: #3498db;
+}
+.student-exam-key p{
+    font-size: 0.925rem;
+    font-weight: 900;
+    color: #3d9826;
+    margin: 2rem 0.5rem;
+}
+.topic-text-key span{
+    white-space: pre-line;
+}
+.card-studentExam p{
+    font-size: 0.925rem;
+    padding: 0.3rem 0rem;
+}
+.card-studentExam p label{
+    color: #999;
+    padding-right: 1rem;
+}
+.history-exam{
+    margin-top: 1rem;
+    text-align: center;
+}
+.questionId{
+    position: relative;
+}
+
+
+.questionId a{
+    color: #666;
+    width: 35px;
+    height: 35px;
+    text-align: center;
+    line-height: 35px;
+    background: #eee;
+    border-radius: 5px;
+    float: left;
+    cursor:pointer;
+    border: 1px solid white;
+}
+.questionId a{
+    color: #444;
+}
+.questionId a:hover{
+    color:#FFF;
+    background:#3498db;
+}
+.question_id{
+    color: #fff;
+}
+.questionId:hover,.question_id a{
+    color:#FFF;
+    background:#3498db;
+}
+.report-left-main{
+    position: fixed;
+    z-index: 990;
+}
+.report-right-main{
+    position: absolute;
+    right: 0;
+}
+/*.active_question_id{*/
+    /*color: #37bdf5;*/
+    /*background: none;*/
+/*}*/
+#closeCard,#openCard{
+    border:none;
+}
+#closeCard span,#openCard span{
+    cursor:pointer;
+}
+#openCard:hover{
+    color:#3498db;
+}
+.clickQue a{
+    color: #3498db!important;
+    background: #fff;
+}
+.answer-card-info{
+    padding: 0.5rem 1rem;
+    color: #666;
+    background: #f7f7f7;
+}
+.answer-card-info span{
+    margin: 0px 1px;
+}
+.onBox{
+    display: inline-block;
+    background: #fff;
+    width: 25px;
+    height: 25px;
+    border-radius: 5px;
+    color: #3498db;
+    text-align: center;
+    line-height: 25px;
+}
+.unBox{
+    margin-left: 1rem;
+    display: inline-block;
+    background: #3498db;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+.errorBox{
+    margin-left: 1rem;
+    display: inline-block;
+    background: #e64b37;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.rightBox{
+    margin-left: 1rem;
+    display: inline-block;
+    background: #4dbd74;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+.basicBox{
+    margin-left: 1rem;
+    display: inline-block;
+    background: #ffc022;
+    width: 25px;
+    height: 25px;
+    color: #fff;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 25px;
+}
+
+.questionId .rightTitle{
+    border-bottom: 2px solid #4dbd74;
+}
+.questionId .errorTitle{
+    border-bottom: 2px solid #e64b37;
+}
+.questionId .basicTitle{
+    border-bottom: 2px solid #ffc022;
+}
+
+.exam-result-time{
+    position: absolute;
+    right: 14px;
+    bottom: 10px;
+    color: #fd7571;
+    font-size: 0.825rem;
+}
+.text-exam-unm{
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+.progress-bar-gary {
+    height: 1rem;
+    color: #fff;
+    background-color: #a7c0ca;
+}
